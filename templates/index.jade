@@ -9,8 +9,9 @@ html(lang='en')
     link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
   body
     .container-fluid
-      h1.text-primary.text-center Dev Home
-      p.text-center A blog all about Developers, their tools and works.
+      .header
+        h1.text-primary.text-center Dev Home
+        p.text-center A blog all about Developers, their tools and works.
       .main
         each article in collections.articles
           article.content-article
